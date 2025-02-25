@@ -8,6 +8,6 @@
 </div>
 
 <p align="center">
-  <a href='https://solved.ac/hyunlight'><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=kyutark" referrerpolicy="no-referrer" alt="solved.ac tier"></a>
-  <a href='https://solved.ac/hyunlight'><img src="http://mazandi.herokuapp.com/api?handle=kyutark" referrerpolicy="no-referrer" alt="solved.ac tier"></a>
+  <a href='https://solved.ac/kyutark'><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=kyutark" referrerpolicy="no-referrer" alt="solved.ac tier"></a>
+  <a href='https://solved.ac/kyutark'><img src="http://mazandi.herokuapp.com/api?handle=kyutark" referrerpolicy="no-referrer" alt="solved.ac tier"></a>
 </p>
