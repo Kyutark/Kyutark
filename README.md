@@ -7,7 +7,3 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kyutark&layout=donut&show_icons=true&theme=github_dark_dimmed&langs_count=5&hide_border=true&count_private=true&hide=jupyter%20notebook" width="38%" /></a>
 </div>
 
-<p align="center">
-  <a href='https://solved.ac/kyutkim01'><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=kyutkim01" referrerpolicy="no-referrer" alt="solved.ac tier"></a>
-  <a href='https://solved.ac/kyutkim01'><img src="http://mazandi.herokuapp.com/api?handle=kyutkim01" referrerpolicy="no-referrer" alt="solved.ac tier"></a>
-</p>
