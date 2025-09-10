@@ -13,6 +13,7 @@
     <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=kyutkim01" referrerpolicy="no-referrer" alt="solved.ac tier">
   </a>
   <a href="https://solved.ac/kyutkim01">
-    <img src="http://mazandi.herokuapp.com/api?handle=kyutkim01" referrerpolicy="no-referrer" alt="solved.ac tier">
+    <img src="http://mazandi.herokuapp.com/api?handle=kyutkim01&theme=warm" referrerpolicy="no-referrer" alt="solved.ac tier">
   </a>
 </p>
+
