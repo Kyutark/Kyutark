@@ -2,11 +2,13 @@
 
 <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=Kyutark&show_icons=true&theme=github_dark_dimmed&hide_border=true&count_private=true" width="56%" /></a>
+    <img src="https://github-readme-stats.vercel.app/api?username=Kyutark&show_icons=true&theme=github_dark_dimmed&hide_border=true&count_private=true" width="56%" />
+  </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kyutark&layout=donut&show_icons=true&theme=github_dark_dimmed&langs_count=5&hide_border=true&count_private=true&hide=jupyter%20notebook" width="38%" /></a>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kyutark&layout=compact&show_icons=true&theme=github_dark_dimmed&langs_count=5&hide_border=true&count_private=true&hide=jupyter%20notebook" width="38%" />
+  </a>
 </div>
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?Kyutark=anuraghazra&show_icons=true)
+
 
 <div align="center">
   <a href="https://solved.ac/kyutkim01">
