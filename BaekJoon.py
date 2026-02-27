@@ -1,18 +1,50 @@
 import sys
 input = sys.stdin.readline
 
-N = int(input())
+N, M, K = map(int, input().split())
+treeHeight = 0
+length = N
+MOD = 1000000007
 
-ans = [0,1,2,4]
-q = []
+while length != 0:
+    length //= 2
+    treeHeight += 1
 
-for _ in range(N):
-    q.append(int(input()))
+treeSize = pow(2, treeHeight + 1)
+leftNodeStartIndex = treeSize // 2 - 1
+tree = [1] * treeSize
 
-M = max(q)
+for i in range(leftNodeStartIndex + 1, leftNodeStartIndex + 1 + N):
+    tree[i] = int(input())
 
-for i in range(4, M+1):
-    ans.append(ans[i-1] + ans[i-2] + ans[i-3])
+def setTree(i):
+    while i != 1:
+        tree[i // 2] = (tree[i//2] * tree[i]) % MOD
+        i -= 1
+setTree(treeSize - 1)
 
-for i in q:
-    print(ans[i])
+def changeVal(index, value):
+    tree[index] = value
+    while index != 1:
+        index //= 2
+        tree[index] = tree[index*2] % MOD * tree[index*2 + 1] % MOD
+
+def getMul(s,e):
+    partMul = 1
+    while s <= e:
+        if s % 2 == 1:
+            partMul = (partMul * tree[s]) % MOD
+            s += 1
+        if e % 2 == 0:
+            partMul = (partMul * tree[e]) % MOD
+            e -= 1
+        s //= 2
+        e //= 2
+    return partMul
+
+for _ in range(M + K):
+    cmd, a, b = map(int, input().split())
+    if cmd == 1:
+        changeVal(leftNodeStartIndex + a, b)
+    elif cmd == 2:
+        print(getMul(leftNodeStartIndex + a, leftNodeStartIndex + b))
